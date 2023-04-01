@@ -44,6 +44,9 @@ public class Meja {
 
     // untuk mengecek apakah meja kosong
     public boolean isKosong() {
-        // EDIT DISINI
+        return(this.pelanggan == null && this.menu[0] == null);
+    }
+
+    public void tambahPesanan(Menu menu2) {
     }
 }
